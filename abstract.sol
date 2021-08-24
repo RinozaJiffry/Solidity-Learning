@@ -8,8 +8,7 @@ abstract contract BaseContract{
     
     constructor(){
         x = 5;
-        owner = msg.sender;
-        
+        owner = msg.sender;        
     }
     
     function setX(int _x) public virtual;
